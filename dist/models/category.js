@@ -1,0 +1,1 @@
+var Category,categorySchema,mongoose;mongoose=require("mongoose"),categorySchema=new mongoose.Schema({_id:{type:String,require:!0,index:{unique:!0}},name:{type:String,required:!0,trim:!0}}),Category=mongoose.model("Category",categorySchema),module.exports=Category;

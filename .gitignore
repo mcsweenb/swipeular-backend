@@ -1,0 +1,15 @@
+**.war
+*.rbc
+*.sassc
+**.orig
+.DS_Store
+.rspec
+.redcar/
+.sass-cache
+**.swp
+*.sublime-project
+*.sublime-workspace
+
+# src/config/config.coffee
+build
+node_modules

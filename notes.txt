@@ -1,0 +1,117 @@
+################################################################
+# Facebook Authentication User Data
+################################################################
+
+{
+    id: '9319219',
+    username: 'nickcherryjiggz',
+    displayName: 'Nick Cherry',
+    name: {
+        familyName: 'Cherry',
+        givenName: 'Nick',
+        middleName: undefined
+    },
+    gender: 'male',
+    profileUrl: 'https://www.facebook.com/nickcherryjiggz',
+    provider: 'facebook',
+    _raw: '{"id":"9319219","name":"Nick Cherry","first_name":"Nick","last_name":"Cherry","link":"https:\\/\\/www.facebook.com\\/nickcherryjiggz","username":"nickcherryjiggz","location":{"id":"112111905481230","name":"Brooklyn, New York"},"gender":"male","timezone":-5,"locale":"en_US","verified":true,"updated_time":"2013-02-02T15:32:46+0000"}',
+    _json: {
+        id: '9319219',
+        name: 'Nick Cherry',
+        first_name: 'Nick',
+        last_name: 'Cherry',
+        link: 'https://www.facebook.com/nickcherryjiggz',
+        username: 'nickcherryjiggz',
+        location: {
+            id: '112111905481230',
+            name: 'Brooklyn, New York'
+        },
+        gender: 'male',
+        timezone: -5,
+        locale: 'en_US',
+        verified: true,
+        updated_time: '2013-02-02T15:32:46+0000'
+    }
+}
+
+
+################################################################
+# Twitter Authentication User Data
+################################################################
+
+{
+    id: '26957362',
+    username: 'nick_cherry',
+    displayName: 'Nick Cherry',
+    photos: [{
+        value: 'https://pbs.twimg.com/profile_images/1846000517/48765_9319219_239831676_n_normal.jpg'
+    }],
+    provider: 'twitter',
+    _raw: '{"id":26957362,"id_str":"26957362","name":"Nick Cherry","screen_name":"nick_cherry","location":"Brooklyn, NY","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":70,"friends_count":87,"listed_count":2,"created_at":"Fri Mar 27 05:27:41 +0000 2009","favourites_count":3,"utc_offset":-18000,"time_zone":"Eastern Time (US & Canada)","geo_enabled":false,"verified":false,"statuses_count":147,"lang":"en","status":{"created_at":"Sat Jul 21 20:45:04 +0000 2012","id":226779849203781632,"id_str":"226779849203781632","text":"Cine: cinemagr.am http:\\/\\/t.co\\/gw5FLMpM","source":"\\u003ca href=\\"http:\\/\\/itunes.apple.com\\/us\\/app\\/cinemagram\\/id487225881?mt=8&uo=4\\" rel=\\"nofollow\\"\\u003ecinemagram on iOS\\u003c\\/a\\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[{"url":"http:\\/\\/t.co\\/gw5FLMpM","expanded_url":"http:\\/\\/cinemagr.am\\/show\\/12627313","display_url":"cinemagr.am\\/show\\/12627313","indices":[18,38]}],"user_mentions":[]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"id"},"contributors_enabled":false,"is_translator":false,"profile_background_color":"DBE9ED","profile_background_image_url":"http:\\/\\/abs.twimg.com\\/images\\/themes\\/theme17\\/bg.gif","profile_background_image_url_https":"https:\\/\\/abs.twimg.com\\/images\\/themes\\/theme17\\/bg.gif","profile_background_tile":false,"profile_image_url":"http:\\/\\/pbs.twimg.com\\/profile_images\\/1846000517\\/48765_9319219_239831676_n_normal.jpg","profile_image_url_https":"https:\\/\\/pbs.twimg.com\\/profile_images\\/1846000517\\/48765_9319219_239831676_n_normal.jpg","profile_link_color":"CC3366","profile_sidebar_border_color":"DBE9ED","profile_sidebar_fill_color":"E6F6F9","profile_text_color":"333333","profile_use_background_image":true,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false}',
+    _json: {
+        id: 26957362,
+        id_str: '26957362',
+        name: 'Nick Cherry',
+        screen_name: 'nick_cherry',
+        location: 'Brooklyn, NY',
+        description: '',
+        url: null,
+        entities: {
+            description: [Object]
+        },
+        protected: false,
+        followers_count: 70,
+        friends_count: 87,
+        listed_count: 2,
+        created_at: 'Fri Mar 27 05:27:41 +0000 2009',
+        favourites_count: 3,
+        utc_offset: -18000,
+        time_zone: 'Eastern Time (US & Canada)',
+        geo_enabled: false,
+        verified: false,
+        statuses_count: 147,
+        lang: 'en',
+        status: {
+            created_at: 'Sat Jul 21 20:45:04 +0000 2012',
+            id: 226779849203781630,
+            id_str: '226779849203781632',
+            text: 'Cine: cinemagr.am http://t.co/gw5FLMpM',
+            source: '<a href="http://itunes.apple.com/us/app/cinemagram/id487225881?mt=8&uo=4" rel="nofollow">cinemagram on iOS</a>',
+            truncated: false,
+            in_reply_to_status_id: null,
+            in_reply_to_status_id_str: null,
+            in_reply_to_user_id: null,
+            in_reply_to_user_id_str: null,
+            in_reply_to_screen_name: null,
+            geo: null,
+            coordinates: null,
+            place: null,
+            contributors: null,
+            retweet_count: 0,
+            favorite_count: 0,
+            entities: [Object],
+            favorited: false,
+            retweeted: false,
+            possibly_sensitive: false,
+            lang: 'id'
+        },
+        contributors_enabled: false,
+        is_translator: false,
+        profile_background_color: 'DBE9ED',
+        profile_background_image_url: 'http://abs.twimg.com/images/themes/theme17/bg.gif',
+        profile_background_image_url_https: 'https://abs.twimg.com/images/themes/theme17/bg.gif',
+        profile_background_tile: false,
+        profile_image_url: 'http://pbs.twimg.com/profile_images/1846000517/48765_9319219_239831676_n_normal.jpg',
+        profile_image_url_https: 'https://pbs.twimg.com/profile_images/1846000517/48765_9319219_239831676_n_normal.jpg',
+        profile_link_color: 'CC3366',
+        profile_sidebar_border_color: 'DBE9ED',
+        profile_sidebar_fill_color: 'E6F6F9',
+        profile_text_color: '333333',
+        profile_use_background_image: true,
+        default_profile: false,
+        default_profile_image: false,
+        following: false,
+        follow_request_sent: false,
+        notifications: false
+    }
+}

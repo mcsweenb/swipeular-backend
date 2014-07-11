@@ -1,0 +1,1 @@
+var User,auth;auth=require("./../lib/auth"),User=require("./../models/user"),module.exports=function(a){var b,c;return b={opinions:{}},c=a.locals.mongoose,b.index=function(a,b){return auth.authenticateRequest(a,b,function(a){var c;return c={facebookFriends:a.facebookFriends||[],twitterFollowers:a.twitterFollowers||[]},b.status(200).send(c)})},b};
