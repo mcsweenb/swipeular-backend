@@ -24,8 +24,8 @@ exports.development =
 exports.production =
   frontEndAppUrl: "https://s3.amazonaws.com/jcp-innovation-yay-or-nay-front-end/index.html"
   frontEndProductsOnlyAppUrl: "https://s3.amazonaws.com/jcp-innovation-yay-or-nay-front-end/index-jcp.html"
-  baseUrl: "http://yay-or-nay.herokuapp.com"
-  oAuthCallbackBaseUrl: "http://yay-or-nay.herokuapp.com"
+  baseUrl: "http://swipeular.herokuapp.com"
+  oAuthCallbackBaseUrl: "http://swipeular.herokuapp.com"
   database:
     host: "mongodb://127.0.0.1/yay-or-nay"
 
