@@ -22,7 +22,7 @@ exports.development =
     accessTokenSecret: "PczsFQ19x1OeajrnVRldwJbMHDBS6YKo5EQj5P9RQzycA"
 
 exports.production =
-  frontEndAppUrl: "https://s3.amazonaws.com/jcp-innovation-yay-or-nay-front-end/index.html"
+  frontEndAppUrl: "http://swipeular.s3-website-us-east-1.amazonaws.com/"
   frontEndProductsOnlyAppUrl: "https://s3.amazonaws.com/jcp-innovation-yay-or-nay-front-end/index-jcp.html"
   baseUrl: "http://swipeular.herokuapp.com"
   oAuthCallbackBaseUrl: "http://swipeular.herokuapp.com"
