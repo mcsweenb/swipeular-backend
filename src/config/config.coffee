@@ -1,44 +1,47 @@
 exports.development =
-  
+
   frontEndAppUrl: "http://127.0.0.1:8888/yay-or-nay-front-end/build/index.html"
-  frontEndProductsOnlyAppUrl: "http://127.0.0.1:8888/yay-or-nay-front-end/build/index-jcp.html"
-  oAuthCallbackBaseUrl: "http://127.0.0.1:5000"
-  baseUrl: "http://127.0.0.1:5000"
+  baseUrl: 'http://localhost:5000'
+  oAuthCallbackBaseUrl: 'http://localhost:5000'
+
   database:
-    host: "mongodb://127.0.0.1/yay-or-nay"
+    host: 'mongodb://127.0.0.1/yay-or-nay'
 
   facebook:
-    appId: "1407324312837936"
-    appSecret: "888e3147535c57a91e35dc4be042e097"
+    appId: 'FACEBOOK APP ID GOES HERE'
+    appSecret: 'FACEBOOK APP SECRET GOES HERE'
 
   google:
-    clientId: "598188715004.apps.googleusercontent.com"
-    clientSecret: "9gRNmInhiiXaT75fNPs2sEEF"
+    clientId: 'GOOGLE CLIENT ID GOES HERE'
+    clientSecret: 'GOOGLE CLIENT SECRET GOES HERE'
 
   twitter:
-    consumerKey: "IyTbVvSc9M9NDD0gvQfpQ"
-    consumerSecret: "bE0iSYq7reqAP865CduQxo9qhVqkzU6eamY5G0vQ0"
-    accessToken: "2161203474-YJTSGUR25chSlrqPtQCra3G482DHbrj6r8EhTPp"
-    accessTokenSecret: "PczsFQ19x1OeajrnVRldwJbMHDBS6YKo5EQj5P9RQzycA"
+    consumerKey: 'TWITTER CONSUMER KEY GOES HERE'
+    consumerSecret: 'TWITTER CONSUMER SECRET GOES HERE'
+    accessToken: 'TWITTER ACCESS TOKEN GOES HERE'
+    accessTokenSecret: 'TWITTER ACCESS TOKEN SECRET GOES HERE'
+
+
 
 exports.production =
-  frontEndAppUrl: "http://swipeular.s3-website-us-east-1.amazonaws.com/"
-  frontEndProductsOnlyAppUrl: "https://s3.amazonaws.com/jcp-innovation-yay-or-nay-front-end/index-jcp.html"
-  baseUrl: "http://swipeular.herokuapp.com"
-  oAuthCallbackBaseUrl: "http://swipeular.herokuapp.com"
+
+  frontEndAppUrl: "http://swipeular.s3-website-us-east-1.amazonaws.com/index.html"
+  baseUrl: 'swipeular.herokuapp.com'
+  oAuthCallbackBaseUrl: 'swipeular.herokuapp.com'
+
   database:
-    host: "mongodb://127.0.0.1/swipeular"
+    host: 'mongodb://127.0.0.1/swipeular'
 
   facebook:
-    appId: "617998461651559"
-    appSecret: "8f338fea2e4a0e9c00d755e014f7e2be"
+    appId: '617998461651559'
+    appSecret: '8f338fea2e4a0e9c00d755e014f7e2be'
 
   google:
-    clientId: "598188715004-p2mcj8rs7bjhbk76m6vn35qm07q64mhe.apps.googleusercontent.com"
-    clientSecret: "slvQhTTUjOOQhmJ8EGLW0Bt4"
+    clientId: 'GOOGLE CLIENT ID GOES HERE'
+    clientSecret: 'GOOGLE CLIENT SECRET GOES HERE'
 
   twitter:
-    consumerKey: "ECl1QRe8gnqv0VIKgkrFGw"
-    consumerSecret: "OO4nB7czXdmOQTohZ7nA8QA4KNdubofN72OahkZihE"
-    accessToken: "2161203474-BUBIWUx8YLAYcRB5kREtMaZq4gqNnuEatBYqIaU"
-    accessTokenSecret: "9Xp6Ip3PPGTo1YJw39Eri1F23pPGa5JNhjYgrXfKH0rxe"
+    consumerKey: 'TWITTER CONSUMER KEY GOES HERE'
+    consumerSecret: 'TWITTER CONSUMER SECRET GOES HERE'
+    accessToken: 'TWITTER ACCESS TOKEN GOES HERE'
+    accessTokenSecret: 'TWITTER ACCESS TOKEN SECRET GOES HERE'
