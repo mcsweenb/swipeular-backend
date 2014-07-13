@@ -27,7 +27,7 @@ exports.production =
   baseUrl: "http://swipeular.herokuapp.com"
   oAuthCallbackBaseUrl: "http://swipeular.herokuapp.com"
   database:
-    host: "mongodb://127.0.0.1/yay-or-nay"
+    host: "mongodb://127.0.0.1/swipeular"
 
   facebook:
     appId: "1394451344130285"
