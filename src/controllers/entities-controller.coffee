@@ -19,7 +19,8 @@ module.exports = (app) ->
 
   controller.findByCategory = (req, res) ->
     query = Entity.find()
-	query.where('category','women\'s fashion').exec (err, entities) ->
+	query.where('category','women\'s fashion')
+	query.exec (err, entities) ->
       if err then res.status(500).send err
       else
         res.status(200).send entities
