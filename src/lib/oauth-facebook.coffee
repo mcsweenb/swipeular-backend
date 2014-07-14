@@ -14,7 +14,7 @@ module.exports.configure = (app) ->
     clientID: config.facebook.appId
     clientSecret: config.facebook.appSecret
     callbackURL: "#{ config.oAuthCallbackBaseUrl }/auth/facebook/callback"
-    profileFields: ['id',  'name', 'displayName', 'profileUrl', 'photos', 'gender', 'location', 'friends']
+    profileFields: ['id', 'name', 'displayName', 'profileUrl', 'photos', 'gender', 'location', 'friends']
     scope: ['user_location', 'friends_photos']
   ,
   (accessToken, refreshToken, profile, done) ->

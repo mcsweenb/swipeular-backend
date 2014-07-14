@@ -33,8 +33,8 @@ exports.production =
     host: 'mongodb://127.0.0.1/swipeular'
 
   facebook:
-    appId: '617998461651559'
-    appSecret: '8f338fea2e4a0e9c00d755e014f7e2be'
+    appId: '144921372242843'
+    appSecret: '1da30c6a578c933b277e936eddb9de25'
 
   google:
     clientId: 'GOOGLE CLIENT ID GOES HERE'
