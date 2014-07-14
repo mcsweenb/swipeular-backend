@@ -21,6 +21,7 @@ module.exports.configure = (app) ->
   app.get     '/categories', CategoriesController.index
 
   app.get     '/entities', EntitiesController.index
+  app.get     '/entities/find-by-category', EntitiesController.index
   app.post    '/entities', EntitiesController.create
   app.post    '/entities/:id/opinions', EntitiesController.opinions.create
 
