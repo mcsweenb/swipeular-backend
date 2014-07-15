@@ -16,8 +16,7 @@ module.exports = (app) ->
         res.status(200).send entities
 
   controller.findByCategory = (req, res) ->
-	selectQuery = { category, 'technology'}
-	Entity.find(selectQuery).exec (err, entities) ->
+	Entity.find({ category: 'technology'}).exec (err, entities) ->
       if err then res.status(500).send err
       else
         res.status(200).send entities
