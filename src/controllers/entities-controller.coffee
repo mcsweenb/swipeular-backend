@@ -15,13 +15,9 @@ module.exports = (app) ->
       else
         res.status(200).send entities
 
-
-
   controller.findByCategory = (req, res) ->
-    query = Entity.find()
-    query.select '-opinions' unless req.query.includeOpinions
-    query.limit(req.query.limit) if req.query.limit
-    query.exec (err, entities) ->
+	selectQuery = { category, 'technology'}
+	Entity.find(selectQuery).exec (err, entities) ->
       if err then res.status(500).send err
       else
         res.status(200).send entities
