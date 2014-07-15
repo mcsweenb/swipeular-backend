@@ -18,13 +18,13 @@ module.exports = (app) ->
 
 
   controller.findByCategory = (req, res) ->
-    query2 = Entity.find()
-	query2.where('category','women\'s fashion')
-	query2.exec (err, entities) ->
+    query = Entity.find()
+    query.select '-opinions' unless req.query.includeOpinions
+    query.limit(req.query.limit) if req.query.limit
+    query.exec (err, entities) ->
       if err then res.status(500).send err
       else
         res.status(200).send entities
-
 
 
   controller.create = (req, res) ->
